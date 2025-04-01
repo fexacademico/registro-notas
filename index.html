@@ -1,0 +1,29 @@
+<!--
+Copyright © 2025 Felix Lee Pan
+All rights reserved. Unauthorized copying, modification, or distribution of this software is prohibited.
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Notas</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>Registro de Notas</header>
+    <main>
+        <p>Bienvenido, <span id="username"></span>!</p>
+        <input type="text" id="studentName" placeholder="Nombre del estudiante">
+        <input type="number" id="studentGrade" placeholder="Nota">
+        <button onclick="addGrade()">Agregar</button>
+        <ul id="gradeList"></ul>
+        <p>Accesos en esta sesión: <span id="sessionCount"></span></p>
+    </main>
+    <footer>
+        &copy; 2025 Registro de Notas. Todos los derechos reservados. (ISW-512 Diseño de Aplicaciones Web)
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>

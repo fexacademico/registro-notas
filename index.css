@@ -1,0 +1,53 @@
+/*
+Copyright © 2025 Felix Lee Pan
+All rights reserved. Unauthorized copying, modification, or distribution of this software is prohibited.
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #eef;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    font-size: 24px;
+}
+main {
+    padding: 20px;
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+#gradeList {
+    list-style: none;
+    padding: 0;
+}
+.grade {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #0056b3;
+}
